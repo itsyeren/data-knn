@@ -1,8 +1,8 @@
 # K-Nearest-Neighbors
 
-## Dataset'i indirin
+## Download the Dataset
 
-Dataset [burada](https://d32aokrjazspmn.cloudfront.net/materials/ML_Houses_clean.csv) mevcuttur. Aşağıdaki komutlarla indirip `01-KNN` dizinindeki `data` klasörüne kaydedelim:
+The dataset is available [here](https://d32aokrjazspmn.cloudfront.net/materials/ML_Houses_clean.csv). Download it using the following commands and save it to the `data` folder in the `01-KNN` directory:
 
 ``` bash
 curl https://d32aokrjazspmn.cloudfront.net/materials/ML_Houses_clean.csv > data/houses_clean.csv
@@ -10,20 +10,16 @@ curl https://d32aokrjazspmn.cloudfront.net/materials/ML_Houses_clean.csv > data/
 
 ## Dataset
 
-- Dataset, Houses dataset'inin özelliklerinden bir seçimdir
-- Çoğu özellik zaten önceden işlenmiştir
-- Hedef, evlerin satış fiyatıdır
+- The dataset is a selection of features from the Houses dataset.
+- Most features have already been processed.
+- The target is the selling price of the houses.
 
-## Alıştırma
+## Exercise
 
-Bu alıştırma KNN algoritmasını ve mekaniklerini parçalara ayırır. Şunları yapacaksınız:
+This exercise breaks down the KNN algorithm and its mechanics. You will do the following:
 
-- Ölçeğe duyarlılığını keşfedin
-- Kasıtlı olarak overfitting yaptırın
-- K parametresini ince ayarlayın
+- Explore its sensitivity to scale
+- Intentionally perform overfitting
+- Fine-tune the K parameter
 
-Son olarak, performansını Linear Regression ile karşılaştıracak ve göreve en uygun modeli seçeceksiniz.
-
-Alıştırmaya başlamak için `jupyter notebook`'ta `KNN.ipynb` dosyasını açın ve talimatları takip edin.
-
-🚀 Sıra sizde!
+Finally, compare its performance with Linear Regression and select the model best suited to the task.
